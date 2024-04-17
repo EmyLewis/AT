@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto Mono; color: rgba(51, 51, 51, 1);
+}
+
+.mainInfo{
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 100px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.index1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+.index1_2{
+  width: 550px;
+  height: 470px;
+}
+.index1 h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.index1 p{
+  font-size: 20px;
+  width: 410px;
+  margin-bottom: 40px;
+}
+.index1 .pp{
+  font-size: 18px;
+}
+.index1 button{
+  background-color: rgba(51, 51, 51, 1);
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  border-radius: 40px;
+  color: white;
+  font-size: 18px;
+}
+
+.index2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+.index2 img{
+  width: 32px;
+  height: 32px;
+}
+.Bloco{
+  width: 309px;
+  height: 360px;
+  padding: 16px 34px 16px 34px;
+  margin: 10px;
+  border-radius: 16px;
+}
+.Bloco h1{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 15px;
+}
+.Bloco h2{
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.Bloco p{
+  font-size: 18px;
+}
+.Bloco div{
+  display: flex;
+  justify-content: space-between;
+}
+.Youtube{
+  background: rgba(241, 194, 176, 1);
+}
+.Tiktok{
+  background: rgba(249, 235, 152, 1);
+}
+.Facebook{
+  background: rgba(192, 217, 221, 1);
+}
+.Instagram{
+  background: rgba(105, 117, 232, 1);
+}
+
+.index3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(244, 242, 242, 1);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.index3 h1{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.direita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.esquerda2{
+  width: 550px;
+  height: 470px;
+}
+.esquerda2 h1{
+  font-size: 60px;
+}
+.sites{
+  display: flex;
+  align-items: end;
+  margin-top: 40px;
+}
+.sites img{
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+}
+.esquerda{
+  height: 500px;
+  border: 2px solid rgba(51, 51, 51, 1);
+}
+form{
+  width: 550px;
+  position: relative;
+}
+form div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+form div h2{
+  font-size: 26px;
+}
+form input{
+  width: 400px;
+  border: 1px solid rgba(228, 228, 228, 1);
+  border-radius: 99px;
+  box-shadow: 5px 4px 5px rgba(228, 228, 228, 1);
+}
+.mensagem{
+  flex-direction: column;
+}
+.mensagem input{
+  height: 230px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+form button{
+  background-color: rgba(105, 117, 232, 1);
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 225px;
+  height: 34px;
+  position: absolute;
+  right: 0px;
+}
